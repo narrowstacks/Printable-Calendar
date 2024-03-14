@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "printable-calendar"
+version = "0.1.0"
+description = "Python script to create pretty printable calendars"
+authors = ["aaron f.a <featurecrater@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+ical = "^7.0.1"
+recurring-ical-events = "^2.1.2"
+textual = "^0.52.1"
+reportlab = "^4.1.0"
+textual-fspicker = "^0.0.10"
+pytest = "^8.1.1"
+python-docx = "^1.1.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+flake8 = "^7.0.0"
+textual-dev = "^1.5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
